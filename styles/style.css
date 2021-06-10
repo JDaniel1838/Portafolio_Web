@@ -271,7 +271,7 @@ fill:  url(#linearGradient1);
 .AcercaDe > .Card{
     width: 70%;
     height: 30rem;
-    background-color: rgba(255, 255, 255,.3);
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
     border: solid 1px rgba(255, 255, 255, 0.863);
     border-radius: 20px;
     z-index: 10;
@@ -281,8 +281,7 @@ fill:  url(#linearGradient1);
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
-    
-
+    position: relative;
 }
 
 .Card > h2{
@@ -291,7 +290,7 @@ fill:  url(#linearGradient1);
     margin: 1rem auto;
     font-size: 3rem;
     font-weight: 900;
-    color: #f6f6f6;
+    color: #4facfe;
 }
 
 
@@ -303,6 +302,8 @@ fill:  url(#linearGradient1);
     align-items: center;
     justify-content: center;
 }
+
+
 .description>p{
     color: rgba(255, 255, 255, 0.863);
     font-size: 1.5rem;
@@ -310,6 +311,16 @@ fill:  url(#linearGradient1);
     font-weight: 600;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.493);
 }
+
+
+.Card > img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: auto;
+}
+
 
 /* --------------------------------------------------------- */
 
@@ -380,8 +391,6 @@ fill:  url(#linearGradient1);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    backdrop-filter: blur(20px);
     border: 4px solid #fff;
     margin:0 1rem;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.548);
