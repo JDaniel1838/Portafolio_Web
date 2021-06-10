@@ -125,7 +125,7 @@ main{
 .Banner{
     width: 100%;
     height: 38.75rem;
-    background-color: #f6f6f6;
+    background-color: #e4e4e4;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -201,7 +201,10 @@ main{
     display: block;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    background: #24eeba;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0575E6, #24eeba);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0575E6, #24eeba); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     mix-blend-mode: screen; 
     position: absolute;
     top: 0;
@@ -243,7 +246,7 @@ fill:  url(#linearGradient1);
 }
 
 .curva3 > svg > path{
-    fill:#96fbc4;
+    fill:#2af598;
 }
 
 /* --------------------------------------------------------- */
