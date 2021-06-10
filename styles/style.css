@@ -201,10 +201,7 @@ main{
     display: block;
     width: 100%;
     height: 100%;
-    background: #24eeba;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0575E6, #24eeba);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0575E6, #24eeba); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background-image: linear-gradient(to right, #1fd15b 0%, #43e97b 100%);
     mix-blend-mode: screen; 
     position: absolute;
     top: 0;
@@ -246,7 +243,7 @@ fill:  url(#linearGradient1);
 }
 
 .curva3 > svg > path{
-    fill:#2af598;
+    fill:#32faa0;
 }
 
 /* --------------------------------------------------------- */
@@ -350,6 +347,9 @@ fill:  url(#linearGradient1);
 }
 
 .skills > .fondo2{
+    display: none;
+    opacity: 0;
+    visibility: hidden;
     bottom: 9.375rem;
     right: 11.25rem;
     width: 23rem;
@@ -1285,11 +1285,11 @@ fill:  url(#linearGradient1);
     }
 
     .FormImg {
-        width: 55%;
+        width: 56%;
     }
 
-    .FormImg {
-        width: 56%;
+    .MenuVertical {
+        width: 35%;
     }
 
 
@@ -1322,6 +1322,10 @@ fill:  url(#linearGradient1);
     .FormImg {
         width: 60%;
     }
+
+    .MenuVertical {
+        width: 40%;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -1330,12 +1334,24 @@ fill:  url(#linearGradient1);
         font-size: 3rem;
     }
 
+    .Banner >.Titles> h3>span {
+        font-size: 1.9rem;
+    }
+
     .Banner > .imgcode {
         width: 65%;
     }
 
     .skills > .container {
         column-gap: 0%;
+    }
+
+    .FormImg {
+        width: 70%;
+    }
+
+    .MenuVertical {
+        width: 45%;
     }
 
 }
