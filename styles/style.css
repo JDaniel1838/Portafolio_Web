@@ -39,7 +39,9 @@ header{
     width: 80%;
     height: 3rem;
     border-radius: 32px;
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 130%);
+    /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 130%); */
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+
     box-shadow:  3px 3px 0px #408bce,
     -3px -3px 0px #5ecdff;
     display: flex;
@@ -165,9 +167,7 @@ main{
     width: 100%;
     height: 100%;
     /* Empieza */
-    background-image: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
-    
-        background-image: linear-gradient(90deg, #00f2fe 0%, #4facfe 300%);
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     
     mix-blend-mode: screen; 
     position: absolute;
@@ -201,7 +201,7 @@ main{
     display: block;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
     mix-blend-mode: screen; 
     position: absolute;
     top: 0;
