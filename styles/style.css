@@ -76,7 +76,7 @@ header{
     visibility: hidden;
     position: absolute;
     right: 2rem;
-
+    cursor: pointer;
 }
 
 .header > .hamburger > img{

@@ -30,5 +30,12 @@ export default function MenuHamburguesa() {
 
     });
 
+    document.addEventListener("click", (e) => {
+        if (e.target.matches(".ocultarMenu")) {
+            Display.classList.remove("activo");
+            Activo = false;
+        }
+    });
+
 
 }
