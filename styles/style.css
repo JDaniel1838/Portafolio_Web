@@ -828,7 +828,7 @@ fill:  url(#linearGradient1);
     transition: .3s;
 }
 
-.footer> .Icons >a> img:hover{
+.footer> .Icons > img:hover{
     transform: scale(1.2);
     cursor: pointer;
     
